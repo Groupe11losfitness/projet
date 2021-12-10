@@ -1,0 +1,34 @@
+.button{
+	-fx-background-color: #7CFC00;
+	-fx-background-radius: 30 0 0 30;
+}
+.button:hover{
+	
+    -fx-background-color: #03F808;
+	-fx-background-radius: 30 0 0 30;
+}
+.btn-save:pressed {
+     -fx-background-color: #7CFC00;
+	-fx-background-radius: 30 0 0 30;
+}
+
+
+.btn-savee {
+    -fx-background-color: #02F80A;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 10px;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 20px
+}
+
+.btn-savee:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #02F80A;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #FFF;
+    -fx-text-fill: #02F80A;
+    -fx-font-weight: bold
+}
+
+

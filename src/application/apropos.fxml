@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="785.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="164.0" layoutY="148.0" prefHeight="21.0" prefWidth="432.0" text=" numérique pour qu'ils puissent définir leurs taches d’une façon facile">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="122.0" text="est une application consiste a assurer aux utilisateurs un espace">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="180.0" prefHeight="20.0" prefWidth="527.0" text="et automatisé et qui permettra de répondre à tous les besoin administratives.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="79.0" text="LOS fitness">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.446740984916687" green="0.8684210777282715" blue="0.05226608365774155" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.22163742780685425" green="0.42105263471603394" blue="0.05847953259944916" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="146.0" layoutY="214.0" prefHeight="90.0" prefWidth="480.0" text="&#10;          06 41 68 62 86&#10;&#10;          a.losfitness@gmail.com" />
+      <ImageView fitHeight="10.0" fitWidth="13.0" layoutX="277.0" layoutY="330.0">
+         <image>
+            <Image url="@../../../../../Desktop/phone-call.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="10.0" fitWidth="13.0" layoutX="277.0" layoutY="364.0">
+         <image>
+            <Image url="@../../../../../Desktop/email.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

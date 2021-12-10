@@ -1,0 +1,110 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.parent{
+	-fx-background-color: transparent;	
+}
+.pane{
+	-fx-background-color: #D3CDCD;	
+	
+}
+.pink-btn{
+	-fx-background-color: #B3B3B3;
+	-fx-background-radius: 5px;
+	-fx-text-fill: #FFFFFF;
+}
+
+.tf_box{
+	-fx-background-color: transparent ;
+	-fx-border-color: #DEDEE4;
+	-fx-border-width: 0px 0px 1px 0px;
+}
+.tf{
+	-fx-background-color: transparent ;
+	-fx-prompt-text-fill: #2C2C2C;
+}
+
+
+.white-pane{
+	-fx-background-image: url("/application/images/bck.jpg");
+	-fx-background-size: 281 386;
+	-fx-background-position: center center;
+	-fx-background-color: #FFFFFF;
+}
+.backgrnd{
+	-fx-background-color: #F7F7F7;
+	-fx-background-radius: 0px;
+}
+.table-view{
+	-fx-background-color: transparent ;
+}
+.table-view:focused{
+	-fx-background-color: transparent ;
+}
+.table-view .column-header-background{
+	-fx-background-color: linear-gradient(#E6E6FA 0%, #E6E6FA 100%	);
+}
+.table-view .column-header-background .label{
+	-fx-background-color: transparent ;
+	-fx-text-fill: #0C0C0C;
+}
+.table-view .column-header{
+	-fx-background-color: transparent ;
+}
+.table-view .table-cell{
+	-fx-text-fill: white;
+}
+.table-row-cell{
+	-fx-background-color: -fx-table-cell-border-color, white;
+	-fx-background-insets: 0, 0.0 0 1 0;
+	-fx-padding: 0.0em; /*0 */
+}
+.table-row-cell:odd{
+	-fx-background-color: -fx-table-cell-border-color, #78A3C3;
+	-fx-background-insets: 0, 0.0 0 1 0;
+	-fx-padding: 0.0em; /*0 */
+}
+.btn-save {
+    -fx-background-color: #B3B3B3;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 10px;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 20px
+}
+.btn-save:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #02F80A;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #FFF;
+    -fx-text-fill: #02F80A;
+    -fx-font-weight: bold
+}
+.btn-save:pressed {
+    -fx-rotate: 12
+}
+
+.btn-saver {
+    -fx-background-color: #E6E6FA;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 10px;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 20px
+}
+.btn-saver:hover {
+    -fx-cursor: hand;
+    -fx-border-color: #E6E6FA;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #FFF;
+    -fx-text-fill: #E6E6FA;
+    -fx-font-weight: bold
+}
+.btn-savre:pressed {
+    -fx-rotate: 12
+}
+
+
+
+
+
+
+

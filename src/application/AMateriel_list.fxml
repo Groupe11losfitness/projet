@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="785.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.10688836104513064" layoutX="17.0" layoutY="23.0" orientation="VERTICAL" prefHeight="354.0" prefWidth="755.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="20.0" prefWidth="757.0" style="-fx-background-color: #FFFFFF;" styleClass="backgrnd" stylesheets="@../application/application.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="5.0" text="Listes des materiels :" textFill="#048d06">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="19.0" fitWidth="37.0" layoutX="215.0" layoutY="52.0">
+                     <image>
+                        <Image url="@../../../../../Desktop/magnifying-glass.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="59.0" fitWidth="37.0" layoutX="206.0" layoutY="-79.0">
+                     <image>
+                        <Image url="@../../../../../Desktop/stats.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="373.0" prefWidth="719.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <TableView accessibleRole="CHECK_BOX" layoutX="4.0" layoutY="47.0" prefHeight="297.0" prefWidth="757.0" style="-fx-background-color: #FFFFFF;" stylesheets="@../application/application.css">
+                    <columns>
+                      <TableColumn prefWidth="39.0" text="ID" />
+                        <TableColumn prefWidth="88.0" text="Libelle" />
+                        <TableColumn prefWidth="77.0" text="Nom" />
+                        <TableColumn prefWidth="74.0" text="Type" />
+                        <TableColumn prefWidth="72.0" text="Quantité" />
+                        <TableColumn prefWidth="89.0" text="Prix" />
+                        <TableColumn prefWidth="93.0" text="Date" />
+                        <TableColumn prefWidth="106.0" text="Description" />
+                        <TableColumn prefWidth="106.0" text="Etat" />
+                    </columns>
+                     <opaqueInsets>
+                        <Insets right="1.0" />
+                     </opaqueInsets>
+                  </TableView>
+                  <TextField layoutX="5.0" layoutY="11.0" prefHeight="25.0" prefWidth="384.0" promptText="CIN" style="-fx-background-color: #f2f4f4;" styleClass="tf_box" stylesheets="@../application/application.css" text="ID" />
+                  <ImageView fitHeight="19.0" fitWidth="14.0" layoutX="362.0" layoutY="14.0">
+                     <image>
+                        <Image url="@../../../../../Desktop/magnifying-glass.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
